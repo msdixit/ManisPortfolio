@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {
   Fab, Tooltip, Box, Paper, Typography, IconButton,
-  TextField, Button, Divider,
+  TextField,
 } from '@mui/material';
 import SmartToyIcon from '@mui/icons-material/SmartToy';
 import CloseIcon from '@mui/icons-material/Close';

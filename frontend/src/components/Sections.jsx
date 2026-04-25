@@ -1,8 +1,6 @@
 // ─── Section Components ──────────────────────────────────────────────────────
-import { useRef, useEffect, useState } from 'react';
-import {
+import { useRef } from 'react';
   Box, Typography, Grid, Paper, Chip, Stack, IconButton,
-  Divider,
 } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -227,7 +225,7 @@ export function Experience() {
 }
 
 // ── SKILLS ───────────────────────────────────────────────────────────────
-const CHIP_COLORS = ['primary', 'secondary'];
+
 
 export function Skills() {
   return (
